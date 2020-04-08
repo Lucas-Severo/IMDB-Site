@@ -3,4 +3,162 @@
 
 * {
 	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+	font-size: 10px;
+}
+
+.page-header {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: relative;
+	background-attachment: fixed;
+	background-image: url("../img/capa-madmax2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.page-header::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.6) 0%,
+		rgba(0, 212, 255, 0) 75%
+	);
+}
+
+.navbar {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 15px 0 0;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.navbar-logo {
+	width: 110px;
+	height: 45px;
+}
+
+.navbar-menu {
+	display: flex;
+	list-style: none;
+}
+
+.navbar-menu li {
+	margin: 0 25px;
+}
+
+.navbar-menu li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	transition: color 0.2s;
+}
+
+.navbar-menu li a:hover {
+	color: #e4bb23;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile img {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin: 0 15px;
+}
+
+.profile .name {
+	color: white;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.main-movie {
+	width: 90%;
+	height: 80%;
+	max-width: 960px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.main-movie .movie-title {
+	font-size: 6.5em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.main-movie .categories {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.category {
+	color: white;
+	text-decoration: none;
+	margin: 0 10px 0 0;
+	padding: 30px 0;
+	font-size: 13px;
+	text-transform: uppercase;
+	transition: color .2s;
+}
+
+.category:hover {
+	color: #e4bb23;
+}
+
+.btn-watch {
+	font-size: 1.4em;
+	color: black;
+	background-color:#e4bb23;
+	text-decoration: none;
+	border-radius: 50px;
+	padding: 15px 20px;
+}
+
+.btn-watch svg {
+	font-size: 1.4em;
+	font-weight: bold;
+	justify-content: flex-end;
+	margin: 0 0 0 30px;
+}
+
+.btn-watch:hover {
+	background-color: #bc9a1d;
+}
+
+.movie-info {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+}
+
+.movie-info .title {
+	color: white;
+	font-size: 16px;
+	margin: 0;
+}
+
+.movie-info .date {
+	color: #e4bb23;
+	font-size: 14px;
 }
