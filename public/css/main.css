@@ -323,3 +323,33 @@ html, body {
 	font-weight: bold;
 	margin: 0;
 }
+
+footer {
+	padding: 20px 0;
+}
+
+.footer-middle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.social-media svg {
+	font-size: 2.4em;
+	color: #aaa;
+	margin-left: 30px;
+}
+
+.social-media a:hover .fa-twitter {
+	color: #55acee;
+}
+
+.social-media a:hover .fa-facebook-square {
+	color: #3b5998;
+}
+
+.social-media a:hover .fa-instagram {
+	color: #e95950;
+}
