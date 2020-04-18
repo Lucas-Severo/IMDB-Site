@@ -15,303 +15,303 @@
 	</head>
 
 	<body>
-		<header class="page-header">
-			<nav class="navbar">
-				<a href="#"><img class="navbar-logo" src="img/logo-imdb.jpg"/></a>
-				<ul class="navbar-menu">
-					<li class="navbar-item">
-						<a href="#">Lançamentos</a>
+		<header class="header">
+			<nav class="header__navbar">
+				<a href="#"><img class="header__logo" src="img/logo-imdb.jpg"/></a>
+				<ul class="header__menu menu">
+					<li class="menu__item">
+						<a class="menu__option" href="#">Lançamentos</a>
 					</li>
-					<li class="navbar-item">
-						<a href="#">Crítica</a>
+					<li class="menu__item">
+						<a class="menu__option" href="#">Crítica</a>
 					</li>
-					<li class="navbar-item">
-						<a href="#">Em Cartaz</a>
+					<li class="menu__item">
+						<a class="menu__option" href="#">Em Cartaz</a>
 					</li>
 				</ul>
-				<div class="profile">
-					<img src="img/walter-white.jpg" alt="profile image">
-					<p class="profile-name">Walter White</p>
+				<div class="menu__profile profile">
+					<img class="profile__image" src="img/walter-white.jpg" alt="profile image">
+					<p class="profile__name">Walter White</p>
 				</div>
 			</nav>
 
-			<div class="main-movie">
-				<h1 class="movie-title">Mad Max: Estrada da Fúria</h1>
-				<div class="categories">
-					<a href="#" class="category">Aventura</a>
-					<a href="#" class="category">Sci-fi</a>
-					<a href="#" class="category">Terror</a>
+			<div class="header__movie movie">
+				<h1 class="movie__title">Mad Max: Estrada da Fúria</h1>
+				<div class="movie__categories">
+					<a href="#" class="movie__category">Aventura</a>
+					<a href="#" class="movie__category">Sci-fi</a>
+					<a href="#" class="movie__category">Terror</a>
 				</div>
-				<a href="#" class="btn-watch">
+				<a href="#" class="movie__watch">
 					Assistir Trailer
 					<i class="far fa-play-circle"></i>
 				</a>
-				<div class="movie-info">
-					<p class="title">Nos cinemas</p>
-					<p class="date">15 de Outubro de 2015(Brasil)</p>
+				<div class="movie__info">
+					<p class="movie__text">Nos cinemas</p>
+					<p class="movie__date">15 de Outubro de 2015(Brasil)</p>
 				</div>
 			</div>
 		</header>
 
 		<main class="content">
-			<nav class="categorias">
-				<ul class="categorias-menu">
-					<li class="categorias-description"><a href="#">Nos cinemas</a></li>
-					<li class="categorias-description"><a href="#">Em Breve</a></li>
-					<li class="categorias-description"><a href="#">Bilheteria</a></li>
-					<li class="categorias-description"><a href="#">Séries</a></li>
-					<li class="categorias-description"><a href="#">Trailers</a></li>
+			<nav class="content__categories">
+				<ul class="content__menu">
+					<li class="menu__categories"><a href="#">Nos cinemas</a></li>
+					<li class="menu__categories"><a href="#">Em Breve</a></li>
+					<li class="menu__categories"><a href="#">Bilheteria</a></li>
+					<li class="menu__categories"><a href="#">Séries</a></li>
+					<li class="menu__categories"><a href="#">Trailers</a></li>
 				</ul>
 			</nav>
-			<div class="catalogo">
-				<ul class="filmes">
-					<li class="filme">
-						<div class="poster-filme">
+			<div class="content__catalog">
+				<ul class="content__movies movie">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-moonlight.jpg" alt="Moonlight" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									MoonLight
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Moonlight</p>
-							<a href="#" class="sinopse-gen">Drama</a>
-							<div class="nota-container">
+						<div class="movie__synopsis">
+							<p class="synopsis__title">Moonlight</p>
+							<a href="#" class="synopsis__genre">Drama</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 					
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-bladerunner.jpg" alt="BladeRunner" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Blade Runner
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Blade Runner</p>
-							<a href="#" class="sinopse-gen">Aventura</a>, 
-							<a href="#" class="sinopse-gen">SCI-FI</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Blade Runner</p>
+							<a href="#" class="synopsis__genre">Aventura</a>, 
+							<a href="#" class="synopsis__genre">SCI-FI</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-mad-max.jpg" alt="MadMax" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Mad Max
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Mad Max</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">SCI-FI</a>,
-							<a href="#" class="sinopse-gen">Terror</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Mad Max</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">SCI-FI</a>,
+							<a href="#" class="synopsis__genre">Terror</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-alita.jpg" alt="Alita" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Alita
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Alita</p>
-							<a href="#" class="sinopse-gen">Aventura</a>, 
-							<a href="#" class="sinopse-gen">SCI-FI</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Alita</p>
+							<a href="#" class="synopsis__genre">Aventura</a>, 
+							<a href="#" class="synopsis__genre">SCI-FI</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-batman-superman.jpg" alt="Batman vs Superman" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Batman vs Superman
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Batman vs Superman</p>
-							<a href="#" class="sinopse-gen">Ação</a>,
-							<a href="#" class="sinopse-gen">Drama</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Batman vs Superman</p>
+							<a href="#" class="synopsis__genre">Ação</a>,
+							<a href="#" class="synopsis__genre">Drama</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-jurassic-world.jpg" alt="JurassicWorld" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Jurassic World
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Jurassic World</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">Terror</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Jurassic World</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">Terror</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-guerra-civil.jpg" alt="Guerra Civil" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Guerra Civil
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Guerra Civil</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">Ação</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Guerra Civil</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">Ação</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-capita-marvel.jpg" alt="Capitã Marvel" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Capitã Marvel
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Capitã Marvel</p>
-							<a href="#" class="sinopse-gen">SCI-FI</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Capitã Marvel</p>
+							<a href="#" class="synopsis__genre">SCI-FI</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">9.0</p>
+								<p class="grade">9.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-coringa.jpg" alt="Joker" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Coringa
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Coringa</p>
-							<a href="#" class="sinopse-gen">Suspense</a>,
-							<a href="#" class="sinopse-gen">Drama</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Coringa</p>
+							<a href="#" class="synopsis__genre">Suspense</a>,
+							<a href="#" class="synopsis__genre">Drama</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">10</p>
+								<p class="grade">10</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-liga-justica.jpg" alt="Liga da Justiça" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Liga da Justiça
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Liga da Justiça</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">Ação</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Liga da Justiça</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">Ação</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.5</p>
+								<p class="grade">7.5</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-star-wars.jpg" alt="Star Wars" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Star Wars VII
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Star Wars VII</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">SCI-FI</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Star Wars VII</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">SCI-FI</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
 
-					<li class="filme">
-						<div class="poster-filme">
+					<li class="movie__item">
+						<div class="movie__poster">
 							<img src="img/poster-pantera-negra.jpg" alt="Pantera Negra" class="image">
-							<div class="poster-filme-info">
-								<p class="filme-info-title">
+							<div class="movie__poster-info">
+								<p class="movie__poster-title">
 									Pantera Negra
 								</p>
 								<a href="#"><i class="fas fa-play"></i></a>
 							</div>
 						</div>
-						<div class="sinopse">
-							<p class="sinopse-title">Pantera Negra</p>
-							<a href="#" class="sinopse-gen">Aventura</a>,
-							<a href="#" class="sinopse-gen">SCI-FI</a>
-							<div class="nota-container">
+						<div class="movie__synopsis synopsis">
+							<p class="synopsis__title">Pantera Negra</p>
+							<a href="#" class="synopsis__genre">Aventura</a>,
+							<a href="#" class="synopsis__genre">SCI-FI</a>
+							<div class="movie__grade">
 								<i class="fas fa-heart"></i>
-								<p class="nota">7.0</p>
+								<p class="grade">7.0</p>
 							</div>
 						</div>
 					</li>
@@ -320,7 +320,7 @@
 		</main>
 
 		<footer class="footer">
-			<div class="footer-middle">
+			<div class="footer__container">
 				<img src="img/logo-imdb.jpg" alt="logo"/>
 				<div class="social-media">
 					<a href="#"><i class="fab fa-twitter"></i></a>
